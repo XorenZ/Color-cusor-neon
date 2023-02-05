@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculatrice</title>
+  <style type="text/css">
+    .calculator {
+      background-color: #333;
+      width: 400px;
+      height: 500px;
+      border-radius: 20px;
+      margin: 100px auto;
+    }
+
+    .display {
+      background-color: #ddd;
+      width: 100%;
+      height: 150px;
+      border-radius: 20px 20px 0 0;
+      text-align: right;
+      padding-right: 20px;
+      padding-top: 20px;
+      font-size: 40px;
+    }
+
+    .keys {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 350px;
+    }
+
+    .key {
+      background-color: #ddd;
+      width: 75px;
+      height: 75px;
+      border-radius: 10px;
+      margin: 10px;
+      float: left;
+      text-align: center;
+      font-size: 30px;
+      line-height: 75px;
+      cursor: pointer;
+    }
+
+    .key:hover {
+      background-color: #bbb;
+    }
+  </style>
+</head>
+<body>
+  <div class="calculator">
+    <div class="display">0</div>
+    <div class="keys">
+      <div class="key" id="one">1</div>
+      <div class="key" id="two">2</div>
+      <div class="key" id="three">3</div>
+      <div class="key" id="four">4</div>
+      <div class="key" id="five">5</div>
+      <div class="key" id="six">6</div>
+      <div class="key" id="seven">7</div>
+      <div class="key" id="eight">8</div>
+      <div class="key" id="nine">9</div>
+      <div class="key" id="zero">0</div>
+      <div class="key" id="add">+</div>
+      <div class="key" id="subtract">-</div>
+      <div class="key" id="multiply">*</div>
+      <div class="key" id="divide">/</div>
+      <div class="key" id="equals">=</div>
+      <div class="key" id="clear">C</div>
+    
